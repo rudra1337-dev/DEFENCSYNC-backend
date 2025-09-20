@@ -1,0 +1,47 @@
+ok done now i want to create some mongo model where the models
+
+Agency = {
+name,
+slogan,
+backgroundimg,
+flagimg,
+bases:wil, store mulriple base id as reference in a array
+}
+
+
+Base = {
+name,
+agency,
+location,
+photo,
+availSolders,
+availMedikits,
+weapons: store mulriple Weapon id as reference in a array,
+vehicles: store mulriple Vehicle id as reference in a array
+}
+
+
+Weapon = {
+name,
+avalable,
+photo
+}
+
+
+Vehicle = {
+name,
+avalable,
+photo
+}
+
+
+
+create the mongo models and add strong validations to the fields and other requirrments
+
+
+
+
+
+
+ok done now lets create the route for signin where it will receice a name and
+passwo
